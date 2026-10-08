@@ -1,0 +1,10 @@
+{
+  "name": "NexaHub",
+  "short_name": "NexaHub",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#09070f",
+  "theme_color": "#09070f",
+  "description": "Free browser-based tools for everyone.",
+  "icons": []
+}

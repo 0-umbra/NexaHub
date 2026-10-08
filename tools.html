@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Tools — NexaHub</title><meta name="description" content="Browse free browser-based tools on NexaHub.">
+<link rel="icon" href="./assets/icons/logo.svg"><link rel="manifest" href="./manifest.json"><link rel="stylesheet" href="./css/style.css"></head>
+<body><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<header class="site-header"><a class="brand" href="./"><span class="brand-mark">✦</span><span>Nexa<span>Hub</span></span></a>
+<nav class="desktop-nav"><a href="./">Home</a><a class="active" href="./tools.html">Tools</a><a href="./tools.html#categories">Categories</a><a href="./tools.html#favorites">Favorites</a><a href="./about.html">About</a></nav>
+<div class="header-actions"><button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☼</button><button class="icon-btn menu-btn" id="menuToggle" aria-label="Open menu">☰</button></div></header>
+<div class="mobile-menu" id="mobileMenu"><a href="./">Home</a><a href="./tools.html">Tools</a><a href="./tools.html#categories">Categories</a><a href="./tools.html#favorites">Favorites</a><a href="./about.html">About</a><a href="./privacy.html">Privacy</a></div>
+<main class="wrap tools-page">
+<section class="page-hero"><span class="eyebrow">THE TOOLBOX</span><h1>Tools that just work.</h1><p>Useful utilities for text, code, images, security, productivity and everyday tasks.</p></section>
+<div class="toolbar"><div class="search-box"><span>⌕</span><input id="toolSearch" type="search" placeholder="Search tools..." aria-label="Search tools"><kbd>/</kbd></div></div>
+<div id="categories" class="filters" aria-label="Tool categories"></div>
+<section id="favorites" class="section tight"><div class="section-heading"><div><span class="eyebrow">SAVED</span><h2>Favorites</h2></div></div><div id="favoriteGrid" class="tool-grid"></div><div id="favoriteEmpty" class="empty small">Star a tool to save it here.</div></section>
+<section class="section tight"><div class="section-heading"><div><span class="eyebrow">BROWSE</span><h2 id="toolsTitle">All Tools</h2></div><span id="resultCount"></span></div><div id="toolsGrid" class="tool-grid"></div><div id="noResults" class="empty" hidden><div>⌕</div><h3>No tools found</h3><p>Try searching for something else.</p></div></section>
+</main>
+<footer class="footer wrap"><div><a class="brand" href="./"><span class="brand-mark">✦</span><span>Nexa<span>Hub</span></span></a><p>Free tools for everyone.</p></div><div class="footer-links"><a href="./about.html">About</a><a href="./privacy.html">Privacy</a><a href="https://github.com/0-umbra" rel="noopener">GitHub</a></div><small>Built for the web.</small></footer>
+<script src="./js/tools.js"></script><script src="./js/storage.js"></script><script src="./js/app.js"></script><script src="./js/tools-page.js"></script></body></html>
